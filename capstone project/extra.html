@@ -1,0 +1,242 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Capstone Project</title>
+<!--
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+-->
+        <script src="js/carousel.js"></script>
+        <script src="js/menu.js"></script>
+
+<!--		<link rel="stylesheet" type="text/css" href="css/main.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+		<link rel="stylesheet" type="text/css" href="css/carousel.css">
+	 </head>
+
+	<body id="top" onload="loadFoods()">
+	  <div id="container">
+		<header>
+			                                                                                                           <!-- <div class="row"> -->
+			        <div id="left">                                                                                                   <!-- <div class ="col-xs-0 col-sm-3"> -->	    
+					    <img src ="img/profile.png" alt=""/>                                                                <!-- <img src ="img/me.png" class="hidden-xs" alt=""/> -->
+			        </div>                                                                                                   <!-- </div> -->	      
+				    <div id="mid">                                                                                                   <!-- <div class = "col-xs-12 col-sm-6 "> -->
+					    <h1> Mamoudou Mamadou</h1>                                                                     <!-- </div> -->
+  			                                                                                                           <!--<div class = " col-xs-12 col-sm-3 right "><br/>-->
+  				        <address>Electrical and Electronic Engineering Department<br/>
+					       	    Islamic University of Technology<br/>
+						        1705, Gazipur<br/>
+						        IUT, Board Bazar</address>
+			                                                                                                            <!-- </div> --> 
+		            </div><br>
+				<nav>
+					<a href="index.html">Home page</a>
+					<a href="likes.html">Hobbies</a>
+					<a href="extra.html" class="active1">Extras</a>
+				</nav><br>
+				<h2>Extras</h2>
+			</header>
+		<main>
+			<a href="#bottom" class="anchor">Back to bottom</a>
+			<section class="palmares">
+                <h3>My Dishes</h3>
+			        <p id="foods"></p>
+			        <button onclick="myFunc()">Add your favorite dish(es)</button>
+
+                <h3>Football</h3>
+			        	<details open>
+			      	  	<summary><em><abbr title="Islamic University of Technology">I.U.T.</abbr>:</em></summary>
+			      	  	 <ul>
+			      	  	   <li>Inter-community: 1x Winner</li>
+			      	  	   <li>Inter-department: 2X runner up</li>
+			      	     </ul>
+			      	    </details>
+
+			      	    <details open>
+			      	  	<summary><em><abbr title="University of Buea">U.B.</abbr>:</em></summary>
+			      	  	  <ul>
+			      	  	   <li>Inter-department: 2X winner, 1x runner up, 1x Golden boot, 1x highest assist</li>
+			      	      </ul>
+			      	    </details>
+			        
+			            <details open>
+			      	  	<summary><em><abbr title="Government Bilingual High School">G.B.H.S.</abbr> Mbengwi:</em></summary>
+			      	  	  <ul>
+			      	  	    <li>Inter-class: 1x Winner</li>
+			      	        <li>Inter-club: 1x Winner</li>
+			      	        <li>Inter-dormitory: 1x Runner up</li>
+			      	      </ul>
+			      	    </details>
+
+                <h3>Basketball</h3>
+			        	<details open>
+			      	  	<summary><em><abbr title="Islamic University of Technology">I.U.T.</abbr>:</em></summary>
+			      	  	  <ul>
+			      	  	    <li>Inter-department: 1x Winner (2018)</li>
+			              </ul>
+			            </details>
+
+			    </section>
+
+			    <h3 id="diff">Single Slideshow</h3>
+
+                <p>Sample 1:</p>
+			    <div class="slideshow-container">
+
+                    <div class="mySlides1">
+                      <div class="numbertext">1 / 10</div>
+                      <img src="img/slideShow/africa.png" alt="hippopotamus" class="im">
+                      <div class="text">hippopotamus</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">2 / 10</div>
+                      <img src="img/slideShow/africa1.png" alt="apere" class="im">
+                      <div class="text">apere</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">3 / 10</div>
+                      <img src="img/slideShow/bridge.png" alt="bridge" class="im">
+                      <div class="text">bridge</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">4 / 10</div>
+                      <img src="img/slideShow/city_hunter.png" alt="nicky larson" class="im">
+                      <div class="text">nicky larson</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">5 / 10</div>
+                      <img src="img/slideShow/dla3.jpg" alt="douala" class="im">
+                      <div class="text">douala</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">6 / 10</div>
+                      <img src="img/slideShow/eagle.png" alt="eagle" class="im">
+                      <div class="text">eagle</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">7 / 10</div>
+                      <img src="img/slideShow/foumban.png" alt="fumban" class="im">
+                      <div class="text">fumban</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">8 / 10</div>
+                      <img src="img/slideShow/gra.png" alt="mosque" class="im">
+                      <div class="text">mosque</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">9 / 10</div>
+                      <img src="img/slideShow/gra1.png" alt="garoua" class="im">
+                      <div class="text">garoua</div>
+                    </div>
+
+                    <div class="mySlides1">
+                      <div class="numbertext">10 / 10</div>
+                      <img src="img/slideShow/kribi.png" alt="kribi fall" class="im">
+                      <div class="text">kribi fall</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+
+                </div>
+
+               <div id="slideshow">
+               <p>Sample 2:</p>
+               <div class="slideshow-container">
+
+                    <div class="mySlides2">
+                      <div class="numbertext">1 / 10</div>
+                      <img src="img/slideShow/kribi1.png" alt="kribi" class="im">
+                      <div class="text">kribi</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">2 / 10</div>
+                      <img src="img/slideShow/landscape.png" alt="landscape" class="im">
+                      <div class="text">landscape</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">3 / 10</div>
+                      <img src="img/slideShow/nyos.png" alt="lake nyos" class="im">
+                      <div class="text">lake nyos</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">4 / 10</div>
+                      <img src="img/slideShow/peacock.png" alt="peacock" class="im">
+                      <div class="text">peacock</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">5 / 10</div>
+                      <img src="img/slideShow/pygmies.png" alt="pygmies" class="im">
+                      <div class="text">pygmies</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">6 / 10</div>
+                      <img src="img/slideShow/python.png" alt="python" class="im">
+                      <div class="text">python</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">7 / 10</div>
+                      <img src="img/slideShow/slavery.png" alt="historical site" class="im">
+                      <div class="text">historical site</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">8 / 10</div>
+                      <img src="img/slideShow/waterfall.png" alt="waterfall" class="im">
+                      <div class="text">waterfall</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">9 / 10</div>
+                      <img src="img/slideShow/waterfall1.png" alt="beautiful waterfall" class="im">
+                      <div class="text">beautiful waterfall</div>
+                    </div>
+
+                    <div class="mySlides2">
+                      <div class="numbertext">10 / 10</div>
+                      <img src="img/slideShow/yde.png" alt="yaounde" class="im">
+                      <div class="text">yaounde</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                 </div>
+                </div>
+        </main>
+      </div>
+        <div id="bottom"><a href="#top" class="extra">Back to top</a></div>
+			<footer>
+				<!-- <p><img src="http://www.intro-webdesign.com/images/newlogo.png" width="20%" alt="Web development for every one logo"> This page was created by Mamoudou Mamadou & Colleen Van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a></p> -->
+				<br><img src="newlogo.png" id="logo" alt="Web development for every one logo"> This page was created by Mamoudou Mamadou & Colleen Van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>
+				<p class="anchor">&copy; 2020 by Mamoudou Mamadou</p>			
+			</footer>
+<!--
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+-->
+        <script src="js/carousel.js"></script>
+
+	</body>
+	</html>
